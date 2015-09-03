@@ -1,16 +1,32 @@
 package com.bnsantos.dagger;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
+import com.bnsantos.dagger.provider.Provider;
+
+import javax.inject.Inject;
 public class MainActivity extends AppCompatActivity {
+    @Inject
+    Provider mProvider;
+    TextView mVersion;
+    TextView mValue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mVersion = (TextView) findViewById(R.id.version);
+        mValue = (TextView) findViewById(R.id.value);
+
+        ((App)getApplication()).getComponent().inject(this);
+
+        mVersion.setText(Integer.toString(mProvider.getVersion()));
+        mValue.setText((mProvider.getValue()));
     }
 
     @Override

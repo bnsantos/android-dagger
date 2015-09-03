@@ -1,2 +1,2 @@
 # android-dagger
-Android Dagger simple example
+Android Dagger 2 simple example
