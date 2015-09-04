@@ -1,4 +1,6 @@
-package com.bnsantos.dagger.provider;
+package com.bnsantos.dagger.test.provider;
+
+import com.bnsantos.dagger.provider.Provider;
 
 /**
  * Created by bruno on 31/08/15.

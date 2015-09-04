@@ -13,19 +13,13 @@ import dagger.Component;
  * Created by bruno on 31/08/15.
  */
 public class App extends Application {
-    @Singleton
-    @Component(modules = ProviderModule.class)
-    public interface AppComponent extends MyComponent{
-
-    }
-
     private AppComponent mComponent = null;
 
     @Override
     public void onCreate() {
         super.onCreate();
         if(mComponent==null){
-            mComponent = DaggerApp_AppComponent.builder().providerModule(new ProviderModule()).build();
+            mComponent = DaggerAppComponent.builder().providerModule(new ProviderModule()).build();
         }
     }
 
