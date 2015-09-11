@@ -19,7 +19,7 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         if(mComponent==null){
-            mComponent = DaggerAppComponent.builder().providerModule(new ProviderModule()).build();
+            mComponent = Dagger2Helper.buildComponent(AppComponent.class, new ProviderModule());// DaggerAppComponent.builder().providerModule(new ProviderModule()).build();
         }
     }
 
