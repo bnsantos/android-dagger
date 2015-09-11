@@ -6,9 +6,9 @@ import android.widget.TextView;
 
 import com.bnsantos.dagger.App;
 import com.bnsantos.dagger.BuildConfig;
-import com.bnsantos.dagger.Dagger2Helper;
 import com.bnsantos.dagger.MainActivity;
 import com.bnsantos.dagger.R;
+import com.bnsantos.dagger.dagger.Dagger2Helper;
 import com.bnsantos.dagger.test.dagger.TestComponent;
 import com.bnsantos.dagger.test.dagger.TestModule;
 

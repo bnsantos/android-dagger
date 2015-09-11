@@ -1,7 +1,8 @@
 package com.bnsantos.dagger;
 
-import com.bnsantos.dagger.components.MyComponent;
-import com.bnsantos.dagger.modules.ProviderModule;
+
+import com.bnsantos.dagger.dagger.components.MyComponent;
+import com.bnsantos.dagger.dagger.modules.ProviderModule;
 
 import javax.inject.Singleton;
 

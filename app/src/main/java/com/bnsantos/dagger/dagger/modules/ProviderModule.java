@@ -1,4 +1,4 @@
-package com.bnsantos.dagger.modules;
+package com.bnsantos.dagger.dagger.modules;
 
 import com.bnsantos.dagger.provider.Provider;
 import com.bnsantos.dagger.provider.ProviderImpl;

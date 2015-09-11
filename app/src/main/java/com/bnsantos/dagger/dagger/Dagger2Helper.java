@@ -1,4 +1,4 @@
-package com.bnsantos.dagger;
+package com.bnsantos.dagger.dagger;
 
 /**
  * Created by bruno on 11/09/15.

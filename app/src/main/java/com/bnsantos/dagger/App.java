@@ -2,12 +2,8 @@ package com.bnsantos.dagger;
 
 import android.app.Application;
 
-import com.bnsantos.dagger.components.MyComponent;
-import com.bnsantos.dagger.modules.ProviderModule;
-
-import javax.inject.Singleton;
-
-import dagger.Component;
+import com.bnsantos.dagger.dagger.Dagger2Helper;
+import com.bnsantos.dagger.dagger.modules.ProviderModule;
 
 /**
  * Created by bruno on 31/08/15.
@@ -19,7 +15,8 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         if(mComponent==null){
-            mComponent = Dagger2Helper.buildComponent(AppComponent.class, new ProviderModule());// DaggerAppComponent.builder().providerModule(new ProviderModule()).build();
+            //mComponent = DaggerAppComponent.builder().providerModule(new ProviderModule()).build();
+            mComponent = Dagger2Helper.buildComponent(AppComponent.class, new ProviderModule());
         }
     }
 

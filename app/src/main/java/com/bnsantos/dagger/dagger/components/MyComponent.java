@@ -1,4 +1,4 @@
-package com.bnsantos.dagger.components;
+package com.bnsantos.dagger.dagger.components;
 
 import com.bnsantos.dagger.MainActivity;
 
