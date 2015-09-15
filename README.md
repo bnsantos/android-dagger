@@ -29,4 +29,4 @@ Using ```javaDagger2Helper```
 > - https://blog.gouline.net/2015/05/04/dagger-2-even-sharper-less-square/
 > - https://github.com/konmik/konmik.github.io/wiki/Snorkeling-with-Dagger-2
 > - https://github.com/bryanstern/dagger-instrumentation-example
-
+> - https://bitbucket.org/hvisser/android-apt/issues/22/dagger-robolectric-gradle-apt-source-not
