@@ -30,3 +30,4 @@ Using ```javaDagger2Helper```
 > - https://github.com/konmik/konmik.github.io/wiki/Snorkeling-with-Dagger-2
 > - https://github.com/bryanstern/dagger-instrumentation-example
 > - https://bitbucket.org/hvisser/android-apt/issues/22/dagger-robolectric-gradle-apt-source-not
+> - http://engineering.circle.com/instrumentation-testing-with-dagger-mockito-and-espresso/
